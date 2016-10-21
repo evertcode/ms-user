@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/user">
+    <Resource name="jdbc/test" auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://x.x.x.x:3306/test"
+              removeAbandoned="true"
+              removeAbandonedTimeout="300"
+              maxActive="40"
+              maxIdle="10"
+              minIdle="0"
+              validationQuery="select now()"
+              testOnBorrow="true"
+              maxWait="20000"
+              username="root"
+              password="root"/>
+</Context>
